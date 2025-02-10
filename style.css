@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin-top: 50px;
     background-color: #FFDDDF; /* Light pink background */
+    position: relative; /* Ensure positioning works for centering */
+    height: 100vh; /* Make sure the body takes up full screen height */
 }
 
 #message {
@@ -39,12 +41,13 @@ button {
     margin-top: 20px;
 }
 
-/* Centering the Image */
+/* Centering the Image Horizontally and Vertically */
 #popupImage {
     display: none;
     width: 300px;
     margin-top: 20px;
     position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%); /* This centers the image */
 }
