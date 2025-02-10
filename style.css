@@ -38,3 +38,13 @@ button {
     display: none;
     margin-top: 20px;
 }
+
+/* Centering the Image */
+#popupImage {
+    display: none;
+    width: 300px;
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
